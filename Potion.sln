@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Potion", "Potion\Potion.vcxproj", "{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Debug|x64.ActiveCfg = Debug|x64
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Debug|x64.Build.0 = Debug|x64
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Debug|x86.ActiveCfg = Debug|Win32
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Debug|x86.Build.0 = Debug|Win32
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Release|x64.ActiveCfg = Release|x64
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Release|x64.Build.0 = Release|x64
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Release|x86.ActiveCfg = Release|Win32
+		{8796BB5D-9D25-43E1-A72A-A7ED21DE1758}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {014AA0D2-D1F5-4163-8852-8171A8B118E2}
+	EndGlobalSection
+EndGlobal
