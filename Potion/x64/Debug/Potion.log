@@ -1,5 +1,3 @@
 ﻿  Potion.cpp
-C:\Games\Potion\Potion\CCID.h(154,46): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-  (компиляция исходного файла "Potion.cpp")
-  
-  Potion.vcxproj -> C:\Games\Potion\x64\Debug\Potion.exe
+C:\Users\mayonezss\source\repos\Potion\Potion\CCID.h(168,46): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Potion.vcxproj -> C:\Users\mayonezss\source\repos\Potion\x64\Debug\Potion.exe

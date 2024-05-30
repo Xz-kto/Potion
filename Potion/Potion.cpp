@@ -88,7 +88,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     wcout << L"Мир зелий" << endl << endl;
 
-    PotionContainer potionBox(100);
+    /*PotionContainer potionBox(100);
     for (int i = 0; i < 25; i++)
     {
         potionBox.AddPotion(new Positive(static_cast<int>(1 + rand() % 3), static_cast<int>(3 + rand() % 6)));
@@ -105,7 +105,25 @@ int main()
     Iterator<Potion*>* it = new PotionTypeDecorator(potionBox.GetIterator(), PotionType::Explosive);
 
     Task(it);
-    delete it;
+    delete it;*/
+
+    sqlite3container potionBox;
+    for (int i = 0; i < 25; i++)
+    {
+        potionBox.AddPotion(new Positive(static_cast<int>(1 + rand() % 3), static_cast<int>(3 + rand() % 6)));
+    }
+    for (int i = 0; i < 25; i++)
+    {
+        potionBox.AddPotion(new Negative(static_cast<int>(1 + rand() % 5), static_cast<int>(1 + rand() % 3)));
+    }
+    for (int i = 0; i < 25; i++)
+    {
+        potionBox.AddPotion(new Neutral(static_cast<int>(1 + rand() % 9), static_cast<int>(1 + rand() % 9)));
+    }
+    
+    Iterator<Potion*>* it = new sqlite3contIterator(&potionBox);
+
+    Task(it);
 
     return 0;
 }
